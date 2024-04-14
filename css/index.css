@@ -474,6 +474,11 @@ li {
     align-items:center;
 }
 
+.button-wrapper-with-margin .primary-button span {
+    display: flex;
+
+}
+
 .button-wrapper-with-margin .primary-button{
     display: flex;
     border: 1px solid var(--brand-color);
@@ -566,7 +571,8 @@ footer {
     padding: 37px 1rem 50px 1rem;
     /* padding-top:37px;
     padding-bottom:50px; */
-    border-top:0.01rem solid rgba(0, 0, 0,0.2);
+    /* border-top:0.01rem solid rgba(0, 0, 0,0.2); */
+    border-top: 1px solid var(--primary-with-opacity);
 }
 .footer-container {
     display: flex;
