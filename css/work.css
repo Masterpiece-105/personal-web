@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Mochiy+Pop+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+
+}
+.main-container {
+    position: relative;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    padding-top:4rem;
+   /* margin-top: 4rem; */
+}
+
+.main-container .img-blur {
+    z-index: -1;
+    filter: blur(130px);
+    position:absolute;
+    left: 3rem;
+
+}
+
+.main-container .col-1 img{
+    background-size: cover;
+    border-radius: 8px;
+    /* width: 100%; */
+    background-position: 50% 0;
+    /* width: 500px; */
+    height: 600px;
+}
+
+.col-2 .col-2-content .text-para {
+    color: gray;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin-top: 24px;
+    font-size: 20px;
+}
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    /* margin-top: 3rem; */
+}
+
+.col-2 .col-2-content .text-heading {
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 1.1em;
+}
+.main-container .img-blur {
+    width: 60%;
+    
+}
+
+.base-container-work{
+    align-items: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    gap: 4rem;
+}
+
+ .button a{
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    /* display:inline-block; */
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px 8px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all .3s;
+    width: 13rem;
+    text-transform:none;
+}
+.button a {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.col-2 .col-2-content .button a span {
+    display: flex;
+    flex-direction:column;
+
+}
+.col-2 .col-2-content .button a:hover {
+    background-color: #fff;
+    color: blue;
+}
+
+svg {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .base-container-work {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 4rem;
+    }
+    .col-2 .col-2-content .text-heading {
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 1.1em;
+    }
+    .button a {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-2 .col-2-content {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-container {
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem; */
+        /* margin-top: 2rem; */
+        
+    }
+
+}
+
+@media (max-width:425px){
+    .col-2 .col-2-content .text-heading {
+        font-size: 45px;
+        font-weight: 500;
+        line-height: 1.1em;
+    }
+    .button a {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-container .col-1 img {
+        background-size: cover;
+        border-radius: 8px;
+        width: 100%;
+        background-position: 50% 0;
+        /* width: 500px; */
+        height: 500px;
+}
+    
+}
+
+@media (max-width:375px){
+    col-2 .col-2-content .text-heading {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 1.1em;
+    }
+    /* .col-2 .col-2-content .text-para {
+        color: gray;
+        font-weight: 400;
+        line-height: 1.6em;
+        margin-top: 24px;
+        font-size: 20px;
+    } */
+    .main-container .col-1 img {
+        background-size: cover;
+        border-radius: 8px;
+        width: 100%;
+        background-position: 50% 0;
+        /* width: 500px; */
+        height: 400px;
+    }
+    .col-1 {
+        object-fit: cover;
+    }
+}
+

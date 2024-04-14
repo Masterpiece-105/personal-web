@@ -269,9 +269,18 @@ li {
         padding: 0.3rem 0rem;
         text-align: center;
     }
+    .nav-header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        /* background-color: var(--primary-black); */
+        padding: 10px 15px 10px 30px;
+        z-index: 10;
 
 }
-
+}
 @media (max-width: 425px) {
 
     .hero-section {
@@ -708,6 +717,9 @@ footer {
         font-size: 15px;
         padding: 10px 8px;
         
+    }
+    .nav-header {
+        padding: 10px 9px 10px 6px;
     }
     
 }
