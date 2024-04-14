@@ -141,16 +141,16 @@ svg {
         align-items: center;
         justify-content: center;
     }
-    .main-container {
+    /* .main-container {
         /* display: flex;
         align-items: center;
         justify-content: center;
         gap: 5rem; */
         /* margin-top: 2rem; */
         
-    }
+    } 
 
-}
+
 
 @media (max-width:425px){
     .col-2 .col-2-content .text-heading {
