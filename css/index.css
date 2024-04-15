@@ -304,6 +304,15 @@ li {
     .hero-section .btn-element{
         gap: 1rem;
     }
+    .nav-menu ul.active {
+        /* display: block; */
+        margin-top: 2rem;
+    }
+    .nav-title a {
+        font-size: 23px;
+        font-weight: 500;
+       
+    }
 }
 
 
