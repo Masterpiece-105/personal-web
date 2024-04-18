@@ -389,18 +389,18 @@ svg {
 
     }
 }
-/* @media (max-width: 1025px){
+@media (max-width: 1025px){
     .swiper {
     width: 91%;
     height: 75%;
     border-radius: 12px;
 }
-} */
+}
 
-@media (max-width: 1025px){
+/* @media (max-width: 1025px){
 .swiper {
     width: 76%;
     height: 51%;
     border-radius: 12px;
 }
-}
+} */
