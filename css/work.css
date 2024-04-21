@@ -17,6 +17,12 @@
     padding-top:4rem;
    /* margin-top: 4rem; */
 }
+.main-container .heading .para{
+    font-size: 21px;
+    /* font-weight: 600; */
+    padding-bottom: 1rem;
+}  
+  
 
 .main-container .img-blur {
     z-index: -1;
