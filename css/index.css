@@ -94,7 +94,8 @@ li {
 }
 
 .hero-section article {
-   padding: 0rem 22rem;
+   /* padding: 0rem 22rem; */
+   padding: 0rem 7rem;
     margin: auto;
 }
 
@@ -108,7 +109,8 @@ li {
 
 .hero-section article p {
     margin-top: 10px;
-    text-align: center;
+    /* text-align: center; */
+    text-align: justify;
     color: var(--secondary-color);
     line-height: 29px;
     font-size: 18px;
