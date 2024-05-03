@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-name="Layer 1" id="Layer_1" viewBox="0 0 1600 900">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 24.91px;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient" x1="634.55" x2="984.03" y1="558.28" y2="558.28">
+      <stop offset=".19" stop-color="#2c3239"/>
+      <stop offset=".65" stop-color="#484d53"/>
+      <stop offset="1" stop-color="#61656a"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient-2" x1="1045.43" x2="1182.13" y1="331.83" y2="195.13">
+      <stop offset="0" stop-color="#8d61ff"/>
+      <stop offset=".61" stop-color="#a989ff"/>
+      <stop offset="1" stop-color="#c1b5ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="766.59" x2="851.99" xlink:href="#linear-gradient-2" y1="668.7" y2="583.31"/>
+  </defs>
+  <rect class="cls-1" height="586.48" rx="43.12" ry="43.12" width="349.49" x="634.55" y="265.04"/>
+  <path class="cls-2" d="M1043.66,323.29c-.95,0-1.91-.08-2.88-.25-8.86-1.58-14.75-10.04-13.18-18.89,4.01-22.49-1.15-45.08-14.52-63.61-5.26-7.29-3.62-17.47,3.67-22.74,7.29-5.26,17.47-3.62,22.74,3.68,18.58,25.74,25.75,57.13,20.18,88.38-1.41,7.89-8.27,13.43-16.02,13.43ZM1117.42,324.89c9.06-50.82-3.75-103.5-35.13-144.52-5.46-7.14-15.68-8.5-22.83-3.04-7.14,5.46-8.51,15.69-3.04,22.83,25.84,33.79,36.39,77.16,28.93,119.01-1.58,8.85,4.32,17.31,13.18,18.89.97.17,1.93.25,2.88.25,7.74,0,14.61-5.54,16.02-13.43ZM1176.58,339.54c12.55-70.39-5.55-143.08-49.64-199.42-5.54-7.08-15.78-8.33-22.86-2.79-7.08,5.54-8.33,15.78-2.79,22.86,38.39,49.06,54.15,112.35,43.22,173.63-1.58,8.85,4.32,17.31,13.18,18.89.97.17,1.93.25,2.88.25,7.74,0,14.61-5.54,16.02-13.43Z"/>
+  <line class="cls-4" x1="775.71" x2="842.87" y1="351.65" y2="351.65"/>
+  <line class="cls-4" x1="738.94" x2="879.64" y1="410.26" y2="410.26"/>
+  <line class="cls-4" x1="775.71" x2="842.87" y1="469.76" y2="469.76"/>
+  <circle class="cls-3" cx="809.29" cy="626" r="60.38"/>
+</svg>

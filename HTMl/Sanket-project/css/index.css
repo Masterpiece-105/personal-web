@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Flow+Circular&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 
@@ -6,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-family: "Bellota Text", sans-serif; */
 
 }
 li {
@@ -177,11 +180,11 @@ nav ul .link:after{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1rem 0px;
+    padding-top: 3rem;
 
 }
 .primary-5 {
-    font-size: 14px;
+    font-size: 19px;
     font-weight: 500;
     letter-spacing: 1px;
     color: #00635d;
@@ -202,6 +205,7 @@ nav ul .link:after{
 }
 .main-conatainer-grid {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     /* background-color: red; */
     align-items: center;
@@ -212,6 +216,7 @@ nav ul .link:after{
 .conaint-col-1, .conaint-col-2 , .conaint-col-3 {
     width: 356px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: start;
     gap: 1rem;
@@ -222,4 +227,192 @@ nav ul .link:after{
 
 .lower-containt-wrap {
     padding: 0 12px;
+}
+
+.left-container button {
+    display: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+}
+
+.left-container button img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+@media (max-width:1000px){
+    .left-container button{
+        display: block;
+    }
+    .nav-menu ul a {
+        display: block;
+        width: 100%;
+     
+    }
+    .nav-menu ul {
+        position: absolute;
+        left: 0;
+        top: 59px;
+        width: 100%;
+        display: none;
+        background-color: #da0505;
+    }
+    .nav-menu ul.active{
+        display: block;
+    }
+}
+
+.section-2 {
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:2rem 0rem 5rem 0rem ;
+}
+
+.main-conatiner-img {
+    background-image: url('../Images/circle.jpg');
+    /* height: 80vh; */
+    width: 90%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* align-items: start; */
+    padding: 6rem ;
+    color: #fff;
+}
+
+.main-conatiner-img h2 {
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.main-conatiner-img p {
+    font-size: 45px;
+    font-weight: 500;
+
+}
+
+.btn-link {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-link .btn-link {
+    padding: 8px 12px;
+    border:2px solid white;
+    color:#00635d;
+    font-size: 17px;
+    border-radius: 4px;
+    background-color: #fff;
+} 
+
+.btn-link .btn-link:hover {
+    border: 2px solid #00635d;
+}
+
+
+/*  section-3 */
+
+.section-3 {
+    padding-bottom:2rem;;
+}
+.main-product-container {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+.product-img {
+    width: 100%;  
+}
+
+.sub-main-container {
+    display: flex;
+    flex-direction: wrap;
+    /* justify-content: flex-start; */
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    text-align: center;
+}   
+
+.product-col-1 cctv-products {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.learn-more a {
+    font-size: 18px;
+    color: blueviolet
+}
+
+/*  section -4 */
+
+
+.section-4 {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3rem;
+}
+
+.heading {
+    text-align: center;
+    font-size: 36px;
+}
+
+.heading  .primary-2 {
+    padding-top: 2rem;
+    font-size: 36px;
+    /* font-weight: ; */
+}
+
+.sign-img {
+    display: flex;
+    
+}
+.sign-img img{
+    width: 32px;
+    height: 32px;
+
+}
+
+
+.flex-col-containt{
+    display: flex;
+    /* align-items: center; */
+    flex-basis: 45%;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.grid-section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}   
+
+.para-containt .primary-2{
+   
+    padding: 0;
+    padding-bottom: 1rem;
 }
