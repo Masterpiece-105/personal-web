@@ -1,6 +1,7 @@
 const hamburgerBtnImg = document.querySelector('.left-container button');
 
 const navMenu = document.querySelector('.nav-menu ul');
+// const navMenu = document.querySelector('.left-container ul, .btn');
 
 // console.log(hamburgerBtnImg);
 
