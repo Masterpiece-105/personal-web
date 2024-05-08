@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +26,7 @@ header {
     width: 100%;
 }
 
-.logo {
+/* .logo {
     margin-left: 2rem;
 }
 
@@ -51,15 +53,15 @@ header {
 
 .drop-down-menu{
     /* display: flex; */
-    position: absolute;
+    /* position: absolute;
     display: none;
     /* top: 2.7rem; */
-    align-items: center;
+    /* align-items: center; */
     /* flex-direction: column; */
-    width: 100%;
-    transition:  0.4s ease;
+    /* width: 100%; */
+    /* transition:  0.4s ease; */ 
     
-}
+/* } */
 
 .menu-bar:hover .drop-down-menu{
     /* position: absolute; */
@@ -96,5 +98,132 @@ header {
 .Mens-clothe:hover .dropDown-under-manSection {
     display: block;
     transition: 0.4s ease-in;
+} */
+
+/*  product -card  */
+
+.product-card {
+    height: 70vh;
+    width: 55vw;
+    display: flex;
+    gap: 20px;
 }
+
+.card-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card{
+    background: #F0F0F0;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.card .content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    min-width: 45%;
+    max-width: 45%;
+}
+
+.image img{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.content p{
+    font-size: 12px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.content .heading{
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.content span{
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+button{
+    padding: 10px 50px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    color: rgba(255,255,255,0.8);
+}
+
+.card-lg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-lg .content{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.card-lg .content .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-lg .content p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card-lg .content .heading{
+    margin-bottom: 15px;
+}
+
+.card-lg .content span{
+    margin-bottom: 25px;
+}
+
+.card-lg button{
+    margin-inline: auto;
+    margin-top: auto;
+}
+
+.card-lg .image{
+    min-width: 80%;
+    max-width: 80%;
+    margin-bottom: 30px;
+    margin-top: auto;
+}
+
+.card-lg .image img{
+    width: 100%;
+    object-fit: contain;
+}
+
 
