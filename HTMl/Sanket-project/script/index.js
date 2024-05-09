@@ -14,5 +14,7 @@ function openMenu() {
 
     } else {
         hamburgerBtnImg.innerHTML = `<img src="./Images/menu.png" alt="">`;
+
     }
+    
 }
