@@ -2,14 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Flow+Circular&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* font-family: "Bellota Text", sans-serif; */
-
+    font-family: "Poppins", sans-serif;
 }
 
 li {
@@ -31,6 +31,7 @@ header{
     z-index: 1;
     /* position: sticky; */
     padding: 0 7rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
 .logo a img{
@@ -65,7 +66,7 @@ nav .menu .link{
 
 
 .btn {
-    width: 120px;
+    /* width: 120px; */
 }
 
 .btn a{
@@ -144,7 +145,7 @@ nav ul .link:after{
   }
   nav ul .link:hover::after{
     width:100%;
-  }
+}
 
 /* Hero section */
 
@@ -166,11 +167,11 @@ nav ul .link:after{
     font-weight: 600; 
      color: #00635d;
     padding: 5px 0px;
-
+    line-height: 56px;
 }
 
 .primary-2 {
-    font-size: 22px;
+    font-size: 21px;
     color: #00635d;
     padding: 10px 0px;
 
@@ -195,7 +196,7 @@ nav ul .link:after{
 
 }
 .primary-5 {
-    font-size: 19px;
+    font-size: 14px;
     font-weight: 500;
     letter-spacing: 1px;
     color: #00635d;
@@ -225,7 +226,8 @@ nav ul .link:after{
 }
 
 .conaint-col-1, .conaint-col-2 , .conaint-col-3 {
-    width: 356px;
+    /* width: 356px; */
+    width: 424px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -240,6 +242,18 @@ nav ul .link:after{
     padding: 0 12px;
 }
 
+
+.lower-containt-wrap a {
+    display: inline-flex;
+    /* justify-content: center; */
+    gap: 0.3rem;
+}
+
+.lower-containt-wrap a span{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 .left-container button {
     display: none;
     border: none;
@@ -275,6 +289,7 @@ nav ul .link:after{
         display: none;
         background-color: #fff;
     }
+
     .nav-menu ul.active{
         display: block;
     }
@@ -289,7 +304,7 @@ nav ul .link:after{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:2rem 0rem 5rem 0rem ;
+    /* padding:2rem 0rem 5rem 0rem ; */
 }
 
 .main-conatiner-img {
@@ -361,9 +376,9 @@ nav ul .link:after{
     flex-direction: wrap;
     /* justify-content: flex-start; */
     align-items: center;
-    justify-content: center;
     gap: 0.5rem;
     text-align: center;
+    justify-content: space-between;
 }   
 
 .product-col-1 cctv-products {
@@ -395,7 +410,7 @@ nav ul .link:after{
 }
 
 .heading  .primary-2 {
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
     font-size: 36px;
     /* font-weight: ; */
     padding-bottom: 2rem;
@@ -408,7 +423,7 @@ nav ul .link:after{
 .sign-img img{
     width: 32px;
     height: 32px;
-
+    object-fit: contain;
 }
 
 
@@ -450,11 +465,19 @@ nav ul .link:after{
 .footer-main {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 1rem;
     padding: 0 1rem;
 }
 
+.footer-col {
+
+}
+
+.footer-icons {
+    display: flex;
+    gap: 1rem;
+}
 .footer-col .footer-img {
     width: 160px;
 }
@@ -555,6 +578,7 @@ nav ul .link:after{
 
     .hero-containt-1 .primary-1 {
     font-size: 46px;
+    line-height: 39px;
     }
     .primary-5 {
         font-size: 16px;
@@ -666,6 +690,7 @@ nav ul .link:after{
     .sub-main-container {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
     /* .hero-containt-1 {
         left: 4rem;
@@ -696,6 +721,10 @@ nav ul .link:after{
     }
     .primary-5 {
         font-size: 14px;
+    }
+    .conaint-col-1, .conaint-col-2, .conaint-col-3 {
+        width: 356px;
+        /* width: 424px; */
     }
 
 }

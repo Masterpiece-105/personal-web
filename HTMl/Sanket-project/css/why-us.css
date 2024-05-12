@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Flow+Circular&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Bellota Text", sans-serif; */
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.blog {
+    display: flex;
+    justify-content: center;
+}
+.wcu  {
+    /* padding-top: 2rem; */
+    font-size: 36px;
+    /* padding-bottom: 1rem; */
+    color: #00635d;
+}
+
+.conatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.heading {
+    flex-basis: 74%;
+}
+
+.para p {
+    font-size: 18px;
+    text-align: justify;
+    padding-bottom: 1rem
+}
+
+.containt a img {
+    width: 32px;
+    height: 32px;
+}
+
+
+.blog {
+    margin-top: 1rem;
+}
+
+.containt a{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 4px 12px;
+    transition: all 0.5s;
+    color: #00635d;
+    font-size: 18px;
+}
+
+.containt a:hover {
+    border-style: none;
+    border-radius:4px;
+    color: #fff;
+    background-color: #00635d;;
+   
+}
+
+@media (max-width: 768px) {
+    .wcu {
+        line-height: 40px;
+    }
+}
+
+@media (max-width:321px){
+    .containt a {
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 4px 12px;
+        transition: all 0.5s;
+        color: #00635d;
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
