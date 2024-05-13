@@ -5,44 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/pop-form.css" />
-    <link rel="stylesheet" href="./css/why-us.css">
+    <link rel="stylesheet" href="./css/why-us.css" />
+    <link rel="stylesheet" href="./css/top-nav.css" />
     <title>Why Pro-Active Technicalized</title>
   </head>
   <body>
     <header id="nav-header"></header>
-    <div class="conatiner">
-      <div class="heading">
-        <h2 class="wcu">WHY CHOOSE US</h2>
-        <div class="para">
-          <p>
-            Certainly! Here's a refined version: "We are dedicated to upholding
-            the highest standards of quality and professionalism in the
-            installation and maintenance of CCTV systems. As a Mumbai-based
-            security and surveillance service provider, we specialize in the
-            maintenance of existing CCTV cameras, as well as the installation of
-            new systems. Our expertise lies in delivering comprehensive services
-            tailored to meet the unique needs of each client. Whether you
-            require ongoing maintenance or a new installation, we are committed
-            to ensuring the safety and security of your premises through
-            cutting-edge technology and unparalleled service.
-          </p>
+    <section class="section-1">
+      <div class="conatiner">
+        <div class="heading">
+          <h2 class="wcu">WHY CHOOSE US</h2>
+          <div class="para">
+            <p>
+              Certainly! Here's a refined version: "We are dedicated to
+              upholding the highest standards of quality and professionalism in
+              the installation and maintenance of CCTV systems. As a
+              Mumbai-based security and surveillance service provider, we
+              specialize in the maintenance of existing CCTV cameras, as well as
+              the installation of new systems. Our expertise lies in delivering
+              comprehensive services tailored to meet the unique needs of each
+              client. Whether you require ongoing maintenance or a new
+              installation, we are committed to ensuring the safety and security
+              of your premises through cutting-edge technology and unparalleled
+              service.
+            </p>
+          </div>
         </div>
       </div>
-      
-    </div>
-    <div class="blog">
-      <div class="containt">
+      <div class="blog">
+        <div class="containt">
           <a href="">
-              <img src="./Images/iconweb_case-study.png" alt="img">
-              <span>Explore our customer stories</span>
+            <img src="./Images/iconweb_case-study.png" alt="img" />
+            <span>Explore our customer stories</span>
           </a>
+        </div>
       </div>
-    </div>
+    </section>
+
+    <section class="section-2">
+      <div class="rav-highlights" id="rav-highlights">
+        <div class="why-choose-us">
+          
+            <h1 class="wcu-heading content-load-from-bottom">Pro-Active Technicalized</h1>
+   
+
+          <div class="wcu-cards">
+            <div class="wcu-cards-row">
+              <div
+                class="wcu-card wcu-card-left content-load-from-left"
+                id="wcu-card-1"
+              >
+                <h1>
+                  Collaborate with experts to plan and design your dream
+                  project.
+                </h1>
+                <article>
+                  We will work with you to create a personalized renovation plan
+                  that meets your needs and budget.
+                </article>
+              </div>
+              <div
+                class="wcu-card wcu-card-right content-load-from-right"
+                id="wcu-card-2"
+              >
+                <h1>No headaches, no hassles, just results.</h1>
+                <article>
+                  We will handle all the details of your work, from start
+                  to finish, so you can relax and enjoy the process.
+                </article>
+              </div>
+            </div>
+            <div class="wcu-cards-row">
+              <div
+                class="wcu-card wcu-card-left content-load-from-left"
+                id="wcu-card-3"
+              >
+                <h1>Delivering the best quality with thorough checks.</h1>
+                <article>
+                  We use only the highest quality materials and workmanship, and
+                  we will conduct quality checks throughout the renovation
+                  process to ensure that your project is completed to your
+                  satisfaction.
+                </article>
+              </div>
+              <div
+                class="wcu-card wcu-card-right content-load-from-right"
+                id="wcu-card-4"
+              >
+                <h1>Providing timely results</h1>
+                <article>
+                  We are committed to completing your your dream project on time
+                  and within budget.
+                </article>
+              </div>
+            </div>
+            <div class="wcu-cards-row">
+              <div
+                class="wcu-card wcu-card-left content-load-from-left"
+                id="wcu-card-5"
+              >
+                <h1>Transparent pricing.</h1>
+                <article>
+                  We will provide you with a detailed estimate before the work
+                  begins, so there are no surprises.
+                </article>
+              </div>
+              <!-- <div class="wcu-card" id="wcu-card-6"></div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+
+    <section class="footer" id="footer-containt"></section>
   </body>
 
   <!-- script -->
 
   <script src="./script/nav-header.js"></script>
+  <script src="./script/footer.js"></script>
+  <script>
+    function togglePopupContact() {
+      const overlay1 = document.getElementById("popupOverlayContact");
+
+      overlay1.classList.toggle("show1");
+      // overlay.style.display = "block";
+      console.log(overlay1);
+    }
+  </script>
   <script>
     function togglePopup() {
       const overlay = document.getElementById("popupOverlay");
@@ -52,5 +143,6 @@
       // console.log(overlay);
     }
   </script>
+
   <script src="./script/index.js"></script>
 </html>

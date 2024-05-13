@@ -46,6 +46,7 @@
     font-size: 16px; 
     color: #444; 
     text-align: left; 
+    color: #00635d;
 } 
 
 .form-input { 
@@ -55,7 +56,8 @@
     border-radius: 8px; 
     font-size: 16px; 
     width: 100%; 
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    outline: none; 
 } 
 
 .btn-submit, 
@@ -102,6 +104,42 @@
     opacity: 1; 
 } 
 
+.overlay-container.show1 { 
+    display: flex; 
+    opacity: 1; 
+} 
+
+.contact,
+.form-container .email{
+    
+    border: 1px solid #00635d;
+    border-radius: 4px ;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    
+}
+
+
+.contact a,
+.form-container .email a {
+    display: block;
+    font-size: 18px;
+    color: #00635d;
+    font-weight: 600;
+    cursor: pointer;
+    padding:8px 12px;
+    transition: all 0.5s ;
+}   
+
+
+.form-container .contact a:hover {
+    color: #fff;
+    background-color: #00635d;
+}
+
+.form-container .email a:hover{
+    color: #fff;
+    background-color: #00635d;
+}
 
 @media (max-width:426px){
     .popup-box {
