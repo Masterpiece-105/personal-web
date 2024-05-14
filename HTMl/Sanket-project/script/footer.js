@@ -29,7 +29,7 @@ document.getElementById("footer-containt").innerHTML = `
 <div class="footer-col">
   <a href="#" class="heading-info-tag">Technical Support Team</a>
   <ul>
-    <li><a href="#">About Us</a></li>
+    <li><a href="about.html">About Us</a></li>
     <li><a href="#">Technology Partners</a></li>
     <li><a href="#" onclick="togglePopupContact()">Technical Support</a></li>
     <li><a href="#">Privacy policy</a></li>
@@ -37,10 +37,10 @@ document.getElementById("footer-containt").innerHTML = `
 </div>
 <div class="footer-col">
   <a href="#" class="heading-info-tag"
-    >Website Developer Support Team</a
+  >Website Developer Support Team</a
   >
   <ul>
-    <li><a href="#">Services</a></li>
+    <li><a href="#" onclick="togglePopupContact()">Services</a></li>
     <li><a href="#"></a></li>
     <li><a href="#"></a></li>
     <!-- <li><a href="#"></a></li> -->
@@ -57,7 +57,6 @@ document.getElementById("footer-containt").innerHTML = `
   <a href="#">Terms of use</a>
 </div>
 </div>
-
 
 <div id="popupOverlayContact" class="overlay-container">
         <div class="popup-box">

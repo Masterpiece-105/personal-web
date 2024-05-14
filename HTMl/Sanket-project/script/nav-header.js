@@ -1,15 +1,16 @@
+
 document.getElementById("nav-header").innerHTML = `
 <div class="logo">
-<a href="/index.html">
+<a href="index.html">
   <img src="./Images/practive-tech.png" alt="Images" />
 </a>
 </div>
 <div class="left-container">
 <nav class="nav-menu">
   <ul class="menu">
-    <li><a href="/why-us.html" class="link">Why pro-active</a></li>
+    <li><a href="why-us.html" class="link">Why pro-active</a></li>
     <li><a href="https://masterpiece-105.github.io/personal-web/" class="link">Services</a></li>
-    <li><a href="/about.html" class="link">About Us</a></li>
+    <li><a href="about.html" class="link">About Us</a></li>
     <li>
       <a href="#" class="link-button" onclick="togglePopup()"
         >Get in touch</a
@@ -70,7 +71,15 @@ document.getElementById("nav-header").innerHTML = `
       name="email"
       required
     />
-
+    <label class="form-label" for="email">Message:</label>
+    <input
+      class="form-input"
+      type="message"
+      placeholder="Enter Your problem"
+      id="email"
+      name="email"
+      required
+    />
     <button class="btn-submit" type="submit">Submit</button>
   </form>
   <button class="btn-close-popup" onclick="togglePopup()">Close</button>
