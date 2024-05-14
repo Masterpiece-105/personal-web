@@ -130,14 +130,113 @@
 }
 
 
+/*   section-3 */
 
+.data-container {
+    margin: auto;
+
+}
+.rows {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    padding: 1rem 5rem;
+
+
+}
+.col-data {
+    width: 50%;
+}
+.col-img {
+    /* width: 430px; */
+    width: 40%;
+
+}
+
+.col-img img{
+    width: 100%;
+    border-radius: 12px;
+    object-fit: contain;
+}
+
+.main-header {
+    text-align: center;
+    color: #00635d;
+    /* border-bottom: 2px solid #00635d; */
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 0.9rem;
+}
+
+article p {
+    font-size: 17px;
+    text-align: justify;
+}
 
 
 @media (max-width: 768px) {
     .wcu {
         line-height: 40px;
     }
+    .rav-highlights {
+        padding: 1rem 4rem;
+    }
+    .rows {
+        padding: 1rem 3rem;
+    }
 }
+
+
+@media (max-width:426px){
+    .why-choose-us .wcu-heading {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .wcu-cards .wcu-cards-row {
+        display: flex;
+        /* flex-direction: column; */
+
+    }
+    .rav-highlights {
+        padding: 1rem 2rem;
+    }
+    .rows {
+        padding: 1rem 2rem;
+    }
+    .rows {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+        align-items: center;
+    }
+    .col-data {
+        width: 100%;
+    }
+    .col-img {
+        width: 100%;
+        object-fit: contain;
+    }
+    .main-header {
+        font-size: 1.8rem;
+        font-weight: 700;
+        line-height: 1.9rem;
+    }
+    .rows {
+       gap: 1rem; 
+    }
+}
+
+@media (max-width: 376px){
+        .rav-highlights {
+        padding: 1rem 1rem;
+    }
+    .rows {
+        padding: 1rem 1rem;
+    }
+}
+
 
 @media (max-width:321px){
     .containt a {
@@ -151,6 +250,15 @@
         color: #00635d;
         font-size: 16px;
     }
+    .wcu-cards .wcu-cards-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wcu-cards-row .wcu-card {
+        width: calc(100%);
+    }
+
 }
 
 

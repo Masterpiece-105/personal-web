@@ -8,8 +8,8 @@ document.getElementById("nav-header").innerHTML = `
 <nav class="nav-menu">
   <ul class="menu">
     <li><a href="/why-us.html" class="link">Why pro-active</a></li>
-    <li><a href="#" class="link">Services</a></li>
-    <li><a href="#" class="link">About Us</a></li>
+    <li><a href="https://masterpiece-105.github.io/personal-web/" class="link">Services</a></li>
+    <li><a href="/about.html" class="link">About Us</a></li>
     <li>
       <a href="#" class="link-button" onclick="togglePopup()"
         >Get in touch</a

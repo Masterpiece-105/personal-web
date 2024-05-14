@@ -30,8 +30,8 @@ document.getElementById("footer-containt").innerHTML = `
   <a href="#" class="heading-info-tag">Technical Support Team</a>
   <ul>
     <li><a href="#">About Us</a></li>
-    <li><a href="#" onclick="togglePopupContact()">Technology Partners</a></li>
-    <li><a href="#">Technical Support</a></li>
+    <li><a href="#">Technology Partners</a></li>
+    <li><a href="#" onclick="togglePopupContact()">Technical Support</a></li>
     <li><a href="#">Privacy policy</a></li>
   </ul>
 </div>
