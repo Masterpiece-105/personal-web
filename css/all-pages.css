@@ -16,89 +16,8 @@ li {
     list-style-type: none;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top:1rem ;
-    /* background-color: violet; */
-    /* height: 100%; */
-    width: 100%;
-}
-
-/* .logo {
-    margin-left: 2rem;
-}
-
-.nav-menu {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin-right: 7rem;
-
-}
-
-.logo a,
-.nav-menu li a {
-    padding: 8px 12px;
-    background-color: green;
-    border-radius:8px ;
-    color: white;
-    display: block;
-}
-
-.menu-bar {
-    position: relative;
-}
-
-.drop-down-menu{
-    /* display: flex; */
-    /* position: absolute;
-    display: none;
-    /* top: 2.7rem; */
-    /* align-items: center; */
-    /* flex-direction: column; */
-    /* width: 100%; */
-    /* transition:  0.4s ease; */ 
-    
-/* } */
-
-.menu-bar:hover .drop-down-menu{
-    /* position: absolute; */
-    display: block;
-}
-
-.drop-down-menu li {
-    width: 100%;
-    margin-top: 0.2rem;
-    display: relative;
-
-}
-
-.Mens-clothe {
-    display:flex;
-    height: 3.6rem;
-    /* column-gap: 0.5rem; */
-    
-    /* padding: 0 1rem; */
-    position: relative;
-}
-
-.dropDown-under-manSection {
-    display: none;
-    width: 100%;
-    /* margin: 0.3rem 0.5rem; */
-    
-}
-.dropDown-under-manSection  li {
-    margin-top: 0rem;
-}
 
 
-.Mens-clothe:hover .dropDown-under-manSection {
-    display: block;
-    transition: 0.4s ease-in;
-} */
 
 /*  product -card  */
 
