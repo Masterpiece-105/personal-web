@@ -308,7 +308,7 @@ li {
     }
     .nav-menu ul.active {
         /* display: block; */
-        margin-top: 2rem;
+        margin-top: 0rem;
     }
     .nav-title a {
         font-size: 23px;
@@ -656,12 +656,22 @@ footer {
 }
 
 .footer-social-block, 
-.footer-containt-wrapper {
+/* .footer-containt-wrapper {
     display: flex;
     align-items: center;
     gap: 1rem;
     padding: 0 0.5rem;
+} */
+
+.footer-social-block, .footer-containt-wrapper{
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+    padding: 0 0.5rem;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
+
 
 .footer-containt-wrapper .name {
     font-family:"Mochiy Pop One", sans-serif;
@@ -679,32 +689,13 @@ footer {
     /* padding: 4px 8px; */
 }
 
+
 /* .footer-copyright-wrapper-top {
     display: flex;
     align-items: flex-start;
     justify-content: start;
 } */
 
-
-@media (max-width:375px){
-    .footer-top{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 3rem;
-        flex-direction: column;
-    }
-}
-
-@media (max-width:320px){
-    .footer-top{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 0rem;
-    
-    }
-}
 
 @media (max-width:425px){
     /* .footer-top{
@@ -753,6 +744,13 @@ footer {
         padding: 10px 8px;
         
     }
+     .footer-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 3rem;
+        flex-direction: column;
+    }
     
 }
 
@@ -776,5 +774,18 @@ footer {
     .nav-header {
         padding: 10px 9px 10px 6px;
     }
+     .footer-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0rem;
+    
+    }
+       .footer-copyright {
+        font-size: 14px;
+
+    }
     
 }
+
+
